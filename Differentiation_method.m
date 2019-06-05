@@ -1,4 +1,7 @@
 %%Setting up strain
+%The strain function is defined here and you can change the function into any other type of equation and the code will still function.
+%For example you could use a linearly varying strain function like strain = 0.2*t and try it out. The code can still extract the 
+%the information from the input intensity
 t=0:0.001:2.01;
 strain=10*sin(2*pi*10*t);
 %%Defining Intesnity
