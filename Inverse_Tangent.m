@@ -5,6 +5,7 @@
 Fm=10;
 Fs=100;
 i=1;
+intense=0
 undemodf=[];
 Fc=50;
 phase0=pi;
